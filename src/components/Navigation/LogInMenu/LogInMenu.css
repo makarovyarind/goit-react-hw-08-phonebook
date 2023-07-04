@@ -1,0 +1,33 @@
+.loginList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.loginItem {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.registerItem {
+    display: inline-block;
+}
+
+.loginLink,
+.registerLink {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #007bff;
+}
+
+.loginLink:hover,
+.registerLink:hover {
+    background-color: #0056b3;
+}
+
+.loginLink:focus,
+.registerLink:focus {
+    background-color: #0056b3;
+}
